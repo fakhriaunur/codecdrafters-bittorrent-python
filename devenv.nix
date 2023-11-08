@@ -7,4 +7,8 @@
 
     venv.enable = true;
   };
+
+  packages = [
+    pkgs.pipenv
+  ];
 }
